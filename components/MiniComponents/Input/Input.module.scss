@@ -1,0 +1,29 @@
+.root{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 18px;
+    label{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+        .input{
+            width: 200px;
+            height: 25px;
+            border: none;   
+            border-bottom: 1px solid #000;
+            color: #000;
+            font-family: inherit;
+            font-weight: 600;
+        }
+    }
+    .errorText{
+        font-size: 12px;
+        margin-top: .5rem;
+        display: block;
+        color: #ff3333;
+        font-weight: normal;
+        width: 250px;
+        line-height: 1.5;
+    }
+}

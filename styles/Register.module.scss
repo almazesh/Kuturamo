@@ -1,0 +1,30 @@
+.root{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 200px;
+    .goBack{
+        cursor: pointer;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 600;
+    }
+    .personalTitle{
+        font-size: 36px;
+        color: #000;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: 70px;
+    }
+    .registerContainer{
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        .col{
+            &:not(:last-child){
+                margin-right: 50px;
+            }
+        }
+        .createBtn{
+            margin-left: 100px;
+        }
+    }
+}

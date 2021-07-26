@@ -1,0 +1,15 @@
+.root{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px !important;
+    color: #fff;
+    background: #000;
+    padding: 17px 0;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    &:disabled{
+        background-color: rgba(0, 0, 0,.5);
+        cursor: no-drop;
+    }
+}

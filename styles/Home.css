@@ -1,0 +1,34 @@
+.next-el-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.next-el-btn p, .prev-el-btn p{
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+}
+
+.prev-el-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.next-el-btn svg, .prev-el-btn svg{
+    font-size: 60px;
+}

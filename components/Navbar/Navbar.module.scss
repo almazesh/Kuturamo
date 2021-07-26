@@ -1,0 +1,79 @@
+.root{
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .sidebarIcon{
+        button{
+            border: none;
+            background: none;
+            cursor: pointer;
+            svg{
+                font-size: 35px;
+            }
+        }
+    }
+    .logo{
+        a{
+            font-size: 96px;
+        }
+    }
+    .phones{
+        display: flex;
+        flex-direction: column;
+        a{
+            font-size: 16px;
+            margin-bottom: 11px;
+            letter-spacing: 1.2px;
+        }
+    }
+    .langs{
+        span{
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+        .activeLang{
+            color: #000;
+        }
+    }
+    .search{
+        button{
+            cursor: pointer;
+            border: none;
+            background: none;
+            display: flex;
+            flex-direction: column;
+            span{
+                font-size: 18px;
+                font-weight: bold;
+                // font-family: 'MATROSKA';
+                font-family: 'Biryani', sans-serif;
+                font-weight: 900;
+                width: 100%;
+                text-align: right;
+                margin-bottom: 10px
+            }
+            .line{
+                width: 300px;
+                height: 3px;
+                background-color: #000;
+            }
+        }
+    }
+    .navs{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                text-transform: uppercase;
+                &:not(:last-child){
+                    margin-right: 40px;
+                }
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

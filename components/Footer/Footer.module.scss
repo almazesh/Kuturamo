@@ -1,0 +1,56 @@
+.root{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
+    flex-direction: column;
+    h1{
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+    .emailInput{
+        input {
+            // font-family: 'MATROSKA';
+            font-family: 'Biryani', sans-serif;
+            width: 800px;
+            padding-bottom: 24px;
+            padding-top: 12px;
+            font-size: 18px;
+            font-weight: 900;
+            &::placeholder{
+                color: rgba(0, 0, 0, 0.6);
+                font-size: 18px;
+                padding-top: 12px;
+                // font-family: 'MATROSKA';
+                font-weight: 900;
+                font-family: 'Biryani', sans-serif;
+            }
+            border: none;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+        }
+    }
+    .submitBtn{
+        margin-top: 3rem;
+        button{
+            text-transform: uppercase;
+        }
+    }
+    .social{
+        margin-top: 70px;
+        ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            li{
+                &:not(:last-child){
+                    margin-right: 60px;
+                }
+                a{
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

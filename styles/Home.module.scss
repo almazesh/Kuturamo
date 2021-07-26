@@ -1,0 +1,25 @@
+.container{
+    .slider{
+        padding: 0 40px;
+        padding-top: 80px;
+        .sliderItem{
+            cursor: pointer;
+            width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            .title{
+                font-size: 96px;
+                margin-top: 58px;
+                text-align: left;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.nextBtn{
+    color: #000;
+}
+.prevBtn{
+    color: #000;
+}
